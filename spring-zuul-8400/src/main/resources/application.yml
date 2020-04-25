@@ -1,0 +1,27 @@
+server:
+  port: 8400
+  
+spring:
+  application:
+    name: zuul8400
+    
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:7500/eureka/
+  instance:
+    instance-id: woniu58-zuul-9500 #配置中心中显示微服务的名称
+    prefer-ip-address: true 
+
+zuul:
+  ignored-services: "*" #隐藏所有微服务的名字
+  routes: 
+    product: #路由的名字，名字是程序员自定义的，区分不同的微服务
+     service-id: user8300  #要调用的微服务id
+     path: /user/**
+#    user: 
+#     service-id: woniu58-user
+#     path: /user/**
+#    order: 
+#     service-id: woniu58-order
+#     path: /order/**

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCould-Eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCould-database-8100" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCould-redis-8200" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringCould-user-8300" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-zuul-8400" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webmagic-core" charset="UTF-8" />
+  </component>
+</project>

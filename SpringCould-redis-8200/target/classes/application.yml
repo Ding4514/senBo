@@ -1,0 +1,27 @@
+server:
+  port: 8200 #设置自定义的启动端口
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7500/eureka/
+  instance:
+    instance-id: SpringCould-redis-8200 #配置中心中显示微服务的名称
+    prefer-ip-address: true   #是否显示访问微服务的url（可选）
+
+info:
+  app.name: SpringCould-redis-8200
+  auther: 小丁
+  message: 这是redis的模块
+
+spring:
+  application:
+    name: SpringCould-redis-8200 #当前项目名，微服务的名字   非常重要
+
+  redis:
+    database: 0
+    host: 127.0.0.1 #redis的ip
+    port: 6379 #端口
+    timeout: 300 #连接超时时间
+
+

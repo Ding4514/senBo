@@ -1,0 +1,14 @@
+server:
+  port: 8300
+  
+spring:
+  application:
+    name: user8300
+    
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:7500/eureka/
+  instance:
+    instance-id: user-8300 #配置中心中显示微服务的名称
+    prefer-ip-address: true 
